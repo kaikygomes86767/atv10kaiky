@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+  box-shadow: 0px 4px 3px -4px #000;
+}
+
+#menu a {
+  background-color: #555;
+  color: #fff;
+  padding: 12px 35px;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+#menu a:hover {
+  background-color: #999;
+}
+
+/* NÃO ALTERE DAQUI PRA CIMA */
+/* ESCREVA SEU CÓDIGO ABAIXO */
+
+/* Layout 01 - index.html */
+.layout-01 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  background-color: #ccc;
+  height: 100px;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  gap: 10px;
+  height: 200px;
+}
+
+.articles {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.article {
+  flex: 1;
+  background-color: #aaa;
+  padding: 20px;
+}
+
+.menu {
+  flex: 1;
+  background-color: #888;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #666;
+  height: 100px;
+  padding: 20px;
+}
+
+/* Layout 02 - 02.html */
+.layout-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header2 {
+  background-color: #666;
+  color: #000;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.main2 {
+  display: flex;
+  gap: 10px;
+}
+
+.sidebar {
+  background-color: #aaa;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.sidebar button {
+  display: block;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.content {
+  flex: 2;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.ads {
+  background-color: #bbb;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.footer2 {
+  background-color: #555;
+  color: #000;
+  font-weight: bold;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+/* Layout 03 - 03.html */
+.layout-03 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 60vh;
+  margin-top: 40px;
+}
+
+.bar {
+  width: 100px;
+  background-color: gray;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+}
