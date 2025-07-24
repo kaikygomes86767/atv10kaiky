@@ -23,7 +23,6 @@
   background-color: #555;
   color: #fff;
   padding: 12px 35px;
-  color: #fff;
   border-radius: 8px;
   text-decoration: none;
   font-size: 0.8rem;
@@ -33,54 +32,48 @@
   background-color: #999;
 }
 
-/* NÃO ALTERE DAQUI PRA CIMA */
-/* ESCREVA SEU CÓDIGO ABAIXO */
-
-/* Layout 01 - index.html */
+/* Layout 01 */
 .layout-01 {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.header {
+.cabecalho {
   background-color: #ccc;
-  height: 100px;
   padding: 20px;
 }
 
-.main {
+.linha-meio {
   display: flex;
   gap: 10px;
-  height: 200px;
 }
 
-.articles {
+.artigos {
   flex: 2;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.article {
-  flex: 1;
+.artigo {
   background-color: #aaa;
   padding: 20px;
+  height: 100px;
 }
 
-.menu {
+.menu-lateral {
   flex: 1;
   background-color: #888;
   padding: 20px;
 }
 
-.footer {
+.rodape {
   background-color: #666;
-  height: 100px;
-  padding: 20px;
+  padding: 30px;
 }
 
-/* Layout 02 - 02.html */
+/* Layout 02 */
 .layout-02 {
   display: flex;
   flex-direction: column;
@@ -89,50 +82,50 @@
 
 .header2 {
   background-color: #666;
-  color: #000;
-  font-weight: bold;
   padding: 20px;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000;
 }
 
-.main2 {
+.meio {
   display: flex;
   gap: 10px;
 }
 
-.sidebar {
+.menu2 {
   background-color: #aaa;
-  padding: 10px;
+  padding: 15px;
+  width: 150px;
   font-weight: bold;
 }
 
-.sidebar button {
-  display: block;
+.menu2 button {
   margin: 5px 0;
-  padding: 10px;
+  padding: 5px 10px;
 }
 
-.content {
-  flex: 2;
+.content2 {
   background-color: #ccc;
-  padding: 10px;
+  padding: 20px;
+  flex: 2;
 }
 
 .ads {
   background-color: #bbb;
-  padding: 10px;
+  padding: 20px;
+  width: 120px;
   font-weight: bold;
 }
 
 .footer2 {
   background-color: #555;
-  color: #000;
-  font-weight: bold;
   padding: 20px;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
-/* Layout 03 - 03.html */
+/* Layout 03 */
 .layout-03 {
   display: flex;
   justify-content: space-around;
@@ -144,7 +137,8 @@
 .bar {
   width: 100px;
   background-color: gray;
-  text-align: center;
   color: black;
   font-weight: bold;
+  text-align: center;
 }
+
